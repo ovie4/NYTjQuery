@@ -1,5 +1,18 @@
 $(document).ready(function(){
 
+	var newSearchValue;
+	//on click
+	$(".btn").on("click", function(){
+		event.preventDefault()
+		
+		 newSearchValue = $("#search-input").val().trim();
+
+	})
+	//capture input value
+	//get ajax pull
+	//display on screen
+
+
 	//variables for search items
 	var searchTerm = "";
 	var results = 0;
@@ -18,4 +31,5 @@ $.ajax({
 }).fail(function(err) {
   throw err;
 });
+
 })
