@@ -1,0 +1,18 @@
+
+
+
+
+#main {
+      width: 60%;   
+      margin: 0 auto;
+      padding: 20px;
+
+  }
+
+#search-input{     
+      width: 30%;
+}
+
+#search-response{
+      min-height: 300px;
+}
